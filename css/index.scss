@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+    li {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 1rem;
+        
+    }
+    a {
+        text-decoration: none;
+        
+        &:hover {
+            background-color: rgb(236, 230, 230);
+            color: rgb(8, 8, 8);
+            padding: 5px;
+            border-radius: 4px;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+
+    .header-button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px 8px;
+        border-radius: 10px; 
+    }
+    }
+
+   
+
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:white;
+  padding: 40px 20px 50px 30px;
+}
+.grid-item {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+ /* border: 1px solid rgba(0, 0, 0, 0.8);*/
+  text-align: center;
+  min-width: 300px;
+
+
+  .grid-item1 {
+    position: relative;
+  }
+  .bold-head {
+    
+        font-size: 3rem;
+        text-align: left;
+        font-weight: lighter;
+    }
+
+    .left{
+        position: absolute;
+        margin-top: 60px;
+      
+
+    
+        
+    }
+
+    .right{
+        position: absolute;
+        margin-top: 60px;
+        left: 150px;
+       
+    }
+
+    
+
+    .one{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: black;
+        text-align: center;
+        top:330px ;
+        color: white;
+        border-radius: 30px;
+    
+       
+       svg{
+        margin: 10px 10px;
+       }  
+    }
+
+    .two{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        background-color: rgb(252, 79, 11);
+        text-align: center;
+        top:330px ;
+        left: 50px;
+        color: white;
+        border-radius: 30px;
+       
+       div{
+        margin: 10px auto;
+       }   
+}
+    .three{
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        background-color: black;
+        text-align: center;
+        top:375px ;  
+        color: white;
+        border-radius: 30px;
+    
+    div{
+        margin: 10px auto;
+    }   
+    }
+
+    .four{
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        background-color: yellow;
+        text-align: center;
+        top:375px ;
+        left: 155px;
+        color: black;
+        border-radius: 30px;
+       
+       div{
+        margin: 10px auto;
+       }   
+}
+
+.five{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(175, 170, 170);
+    text-align: center;
+    top:420px ;
+    
+    color: black;
+    border-radius: 30px;
+   
+   div{
+    margin: 12px auto;
+   }   
+}
+
+.six{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: purple;
+    text-align: center;
+    top:420px ;
+    left: 160px;
+    color: white;
+    border-radius: 30px;
+   
+   div{
+    margin: 10px auto;
+   }   
+}
+
+}
+
+.grid-item2 {
+   
+p{
+    line-height: 30px;
+}
+    img{
+        
+        margin-bottom: 30px;
+    }
+}
+
+.grid-item3 {position: relative;
+    
+ /* .svg{
+        display: inline-block;
+        position: absolute;
+        left: 150px;
+       
+} Commented out for now*/
+
+    p{
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+
+    h5{
+        font-weight: lighter;
+    }
+    img{
+        
+        margin-top: 90px;
+    }
+}
+
+  
+
+        
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:white;
+    padding: 30px 20px 50px 30px; 
+    
+    .item1{
+        position: relative;
+
+        img{
+            margin-bottom: 75px;
+        }
+    }
+        .item2{
+            position: relative;
+    
+            img{
+                margin-top: 50px;
+            }
+    }
+    
+    .item3{
+        position: relative;
+
+        img{
+            margin-bottom: 40px;
+        }
+}
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30;
+    font-size: larger;
+}
+
+.icons-shape {
+    display: grid;
+    grid-template-columns:  150px 150px 150px 150px 150px 150px ;
+    column-gap: 22px;
+    margin: 30px 20px 50px 30px;
+    
+}
+.shapings{
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(231, 229, 229);
+    display: block;
+    
+
+    div  {
+      align-self: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 30px;
+
+      .percent {
+        font-size: 30px;
+        margin-top: 5px;
+        font-weight: bolder;
+      }
+    }
+}
+
+.tab{
+    text-align: center;
+    text-justify: center;
+}
+
+
+table{
+    margin: 30px 20px 50px 30px;
+    width: 1000px;
+    text-align: right;
+    
+th, td {
+    border-bottom: 2px solid rgb(243, 239, 239);
+    padding: 10px;
+}
+    
+    
+}
+
+.work-pics{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin: 30px 20px 20px 30px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 5px;
+    
+    
+  div{
+    background-color: rgb(238, 230, 230);
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.client{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.black {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    background-image: url(/pics/1-earth.jpg);
+    color: white;
+    background-blend-mode: difference;
+    background-size: cover;
+    position: relative;
+ 
+    h2 p button {
+        position: absolute;
+    }
+    
+    h2{
+        font-weight: lighter;
+        position: absolute;
+        top: 120px;
+        left: 80px;
+        font-size: 30px;
+    }
+
+    p{
+        position: absolute;
+        top: 190px;
+        right: 20px;
+        text-align: center;
+    }
+
+    .inner-button {
+        background-color: white;
+        position: absolute;
+        color: black;
+        padding: 5px;
+        border-radius: 39px;
+        top: 204px;
+        left: 108px;
+        border-color: white;
+    }
+
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    height: 70px;
+    text-align: center;
+
+    .footer-logo {
+        position: absolute;
+        top: 20px;
+        left: 30px; 
+}
+
+.so-media{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 900px;
+
+    a{
+        text-decoration: none;
+        padding: 5px;
+    }
+}
+
+li {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px;
+    
+    
+}
+a {
+    text-decoration: none;
+    
+    &:hover {
+        background-color: rgb(236, 230, 230);
+        color: rgb(8, 8, 8);
+        padding: 5px;
+        border-radius: 4px;
+    }
+}
+}
