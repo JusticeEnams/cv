@@ -222,7 +222,6 @@
   height: 200px;
   border-radius: 100px;
   background-color: rgb(231, 229, 229);
-  display: block;
 }
 .shapings div {
   align-self: center;
