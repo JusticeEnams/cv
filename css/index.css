@@ -276,7 +276,7 @@ table th, table td {
   width: 100%;
   height: 300px;
   background-color: black;
-  background-image: url(pics/1-earth.jpg);
+  background-image: url("/earth.jpg");
   color: white;
   background-blend-mode: difference;
   background-size: cover;
