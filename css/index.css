@@ -212,7 +212,7 @@
 
 .icons-shape {
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   -moz-column-gap: 22px;
        column-gap: 22px;
   margin: 30px 20px 50px 30px;
