@@ -141,11 +141,19 @@ margin-bottom: 5rem;
     margin: 0 5px 5px 0;
 }
 .footer-logo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .facebook {
+        color: rgba(0, 0, 255, 0.863)
+    }
+    .instagram {
+        color: #e95950
+    }
 
     a{
         text-decoration: none;
         padding: 2px 2px;
-        color: rgb(10, 10, 10);
     }
 }
 

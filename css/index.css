@@ -114,10 +114,19 @@ body .navbar {
   margin: 0 5px 5px 0;
 }
 
+.footer-logo {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footer-logo .facebook {
+  color: rgba(0, 0, 255, 0.863);
+}
+.footer-logo .instagram {
+  color: #e95950;
+}
 .footer-logo a {
   text-decoration: none;
   padding: 2px 2px;
-  color: rgb(10, 10, 10);
 }
 
 @media (max-width: 995px) {
