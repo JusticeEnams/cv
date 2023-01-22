@@ -1,289 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="./css/index.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- fontawesome kit code -->
+    <script
+      src="https://kit.fontawesome.com/638e52db6b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Personal website</title>
-</head>
+  </head>
 
+  <body>
+  <section id="home">
+    <div>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand" href="">
+          <img src="pics/Untitled-1.png" alt="logo" width="70px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#foundation-tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#learning-p">Learning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button class="btn btn-dark" type="button">Sign up</button>
+        </div>
+      </nav>
+    </div>
+   
 
-<body>
-    <section>
-        <header class="header">
-           
-                    <nav class="nav">
-                    <ul>
-                        <li><a href="#home"> Home</a></li>
-                        <li><a href="#about"> About</a></li>
-                        <li><a href="#experience"> Experience</a></li>
-                        <li><a href="#works"> Works</a></li>
-                        <li><a href="#contact"> Contact</a></li>
-                    </ul>
-                    </nav>
-            
-                <div class="logo headlogo" id="home">
-                    <img src="pics/Untitled-1.png" alt="logo" width="70px">
-                </div>
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 one">
+          <h1 class="bold-head">
+            Becoming a Full-stack Web Developer
+          </h1>
+          <p class="motto">I can do all things.</p>
 
-               
-                    <button class="header-button">Sign up</button>
-               
-           
-        </header>
+          <h5 class="margin">
+           <span><p><strong>Daily Practice</strong> and <strong>learning</strong></p></span> 
+          </h5>
+          
+          <p><strong>Growth Mindset</strong> is key to your success in all ventures.
+            believe in yourself, put in the works, remain committed and willing to relearn
+            and have a good mental picture of yourself.</p>
+          </div>
+       
+
+        <div class="col-lg-4 col-md-6 col-sm-12 personal">
+          <div>
+            <img src="pics/my pic.png" alt="photo missing" width="300px" />
+          </div>
+          <h2 class="hello">Hello</h2>
+          <p class="me"> My name is <em>Justice Enamerherhe</em>. A web developer (in view). 
+          Currently I am a Dad, a husband and hard worker. </p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12 youtube">
+         <h2 class="header">Learning From Youtube</h2>
+
+          <p>Youtube has so much resources on Web Development. All you'll need is focus and descipline.
+          </p>
+
+          <p>Remember, you want to learn and you do not have all the time</p>
+
+          
+          <img src="pics/fun.jpg" alt="Justice Enamerherhe" width="300px" />
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+<section id="process" class="process">
+    <div class=" row container-fluid">
+      <div class="col-lg-4 col-md-6 col-sm-12 two">
+        <div class="foundation-tools">
+        <img 
+          src="pics/attained.jpg"
+          alt="web development foundational tools"
+          width="300"
+          height="200px"
+        />
+
+        <p class="header2">My Learning Process</p>
+        <p>
+          Learn by building your first site with html, as you learn more rebuild your previous site, that way your growth becomes visible.
+        </p>
+      </div>
+    </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="time-management">
+          <h2 class="header"> Youtube Time Management</h2>
          
-            
-        <div class="grid-container">
-            <div class="grid-item grid-item1">
-                <h1 class="bold-head">Illustrator &<br> visual <br>Designer</h1>
-            
-                <div class="left"> 
-                    <h2>6 </h2> 
-                    <p>Practice</p>
-                </div>
-                <div class="right">
-                    <h2>149</h2> 
-                    <p>Work</p>
-                </div>
-                <div>
-                    <div class="one">
-                       
-                            <svg>
-                                <polygon points="10,2 5,16 17,7.5 2,7.5 14.5,16 "  fill="white" />
-                            </svg>
-                        
-                    </div>
-                    <div class="two">
-                        <div>How are you</div>
-                    </div>
-                    <div class="three">
-                        <div>web is cute</div>
-                    </div>
-                    <div class="four">
-                        <div>hmmm</div>
-                    </div>
-                    <div class="five">
-                        <div>web is like Ocean</div>
-                    </div>
-                    <div class="six">
-                        <div>Its not always fun</div>
-                    </div>
-                </div>
-
-            </div>
-            
-            <div class="grid-item grid-item2">
-                <div>  <img src="pics/happy.png" alt="photo missing" width="300px"></div>
-                
-                <p> hello <br>Whether a medieval typesetter <br>chose to garble a well known<br> (but non-Biblical.</p>
-            </div>
-
-            <div class="grid-item grid-item3">
-              <div class="svg">  
-               <svg>
-                    <polygon points="20,4 10,32 34,15 4,15 29,32"  fill="black" />
-                </svg>
-             </div>
-
-                <p>Quilder text. Select<br> a desired length and choose between paragraphs,<br> words, bytes or l</p>
-               
-                <h5>L  O  V  E</h5>
-                <img src="pics/pagee.png" alt="photo is here" width="200px">
-            </div>  
+          <p class="me">
+            Get an accountability partner (a web developer), This would  
+            help you significantly, Just know 
+            that I believe <em>YOU CAN DO IT.</em>
+          </p>
+          <img
+            src="pics/youtube.jpg"
+            alt="Time Management"
+            width="300px"
+          />
         </div>
-
-        <div class="container">
-            <div class="grid-item item1">
-                <img src="pics/web.jpg" alt="Photo missing" width="300" height="200px">
-                <p>esuada mauris. Aenean accumsan<br> ex enim, vel auctor urna 
-                    Cras <br>dignissim sit amet ligula a pretium.<br>
-                    Duis dictum massa arcu, sit </p>
-            </div>
-
-            <div class="grid-item item2">
-                <div >
-                    <p id="about"> <b> Duis dictum massa </b> </p><br>
-                    <p> ligula a pretium.
-                        Duis dictum massa arcu, it <br>amet ligula a pretium.
-                        Duis dictum<br> Duis dictum massa arcu, it <br>amet ligula a pretium massasit a</p>
-                        <img src="pics/inter.jpg" alt="photo missing" width="250px" height="200px">
-                </div>
-
-            </div>
-            <div class="grid-item item3">
-                 
-                <div >
-                    <img src="pics/buz.jpg" alt="hello, photo missing" width="280" height="200">
-                    <p> <b> Duis dictum massa </b> </p><br>
-                    <p> ligula a pretium.
-                        Duis dictum massa arcu, it <br>amet ligula a pretium.
-                        Duis dictum<br> Duis dictum massa arcu, it <br>amet ligula a pretium massasit a</p>
-                </div>
-
-            </div> 
-
-        </div>
-        
-
-            <div class="head" id="experience"><h3> My Advantage </h3></div>
-                    <div class="icons-shape"> 
-                        <div class="shapings">
-                            <div>
-                                <img src="pics/react icon.png" alt="raect" width="60px">
-                                <p class="percent">93%</p>
-                                <p>React</p>
-                            </div>
-                        </div>
-                        <div class="shapings">
-                            <div>
-                                <img src="pics/bootstrap-6-1175203.png" alt="bootstrap" width="60px">
-                                <p class="percent">30%</p>
-                                <p>Bootstrap</p>
-                            </div>
-                        </div>
-                        <div class="shapings">
-                            <div>
-                                <img src="pics/cssf.png" alt="css" width="60px">
-                                <p class="percent">83%</p>
-                                <p>Styling</p>
-                            </div>
-                        </div>
-                        <div class="shapings">
-                            <div>
-                                <img src="pics/htms5.png" alt="html5" width="60px">
-                                <p class="percent">97%</p>
-                                <p>Body</p>
-                            </div>
-                        </div>
-                        <div class="shapings">
-                            <div>
-                                <img src="pics/js.png" alt="javascript" width="60px">
-                                <p class="percent">13%</p>
-                                <p>functions</p>
-                            </div>
-                        </div>
-                        <div class="shapings">
-                            <div>
-                                <img src="pics/wp.png" alt="wordpress" width="60px">
-                                <p class="percent">10%</p>
-                                <p>template</p>
-                            </div>
-                        </div>
-                     </div>
-            <div class="head"><h4>Education and Experience</h4> </div>
-            
+      </div>
+      
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div>
+            <h2 class="header adj"> Invest On Saving Time  </h2>
+          
+          
+          <img
+            class="margin1"
+            src="pics/hour glass.jpg"
+            alt="hello, photo missing"
+            width="300"
            
-        <div class="tab">
-            <table>
-                <thead>
-                <tr>
-                    <th>Year</th>
-                    <th>Institution</th>
-                    <th>Certification</th>
-                   
-                </tr>
-            </thead>
-            
-            <tbody>
-                <tr>
-                    <td>2021</td>
-                    <td>Babadoski Graphics Int.</td>
-                    <td>Graphics Designing Essentials</td>
-                   
-                </tr>
-
-                <tr>
-                    <td>2021</td>
-                    <td>Udemy</td>
-                    <td>Creative Mental Programming</td>
-                   
-                </tr>
-
-                <tr>
-                    <td>2022</td>
-                    <td>Davids Christian Centre</td>
-                    <td>Front-end WebDev</td>
-                    
-                    
-                </tr>
-
-                <tr>
-                    <td>2022</td>
-                    <td>Davids Christian Centre</td>
-                    <td>Back-end and App Development</td>
-                    
-                </tr>
-            </tbody>
-               
-            </table>
+          />
+          <p class="me"> Time is priceless.
+            Invest on resources that would simplify complex
+            concept and increase your learning speed.
+          </p>
+          
         </div>
+      </div>
+    </div>
+</section>
+
+<section id="foundation-tools">
+    <h2 class="header">Foundation Building Tools</h2>
+    <div class="tools">
+    <div id="tools" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <img src="pics/html tool.png" alt="html5" width="100px" />
+            <p class="summary"><strong> HTML is the foundation block</strong> for coding in web development.</p>
+          </div>
+          <div class="carousel-item container-fluid">
+            <img src="pics/css tool.png" alt="css" width="100px" />
+            <p class="summary">CSS is for beautification, assuming html is a person, CSS is the clothing.</p>
+          </div>
+          <div class="carousel-item container-fluid">
+            <img
+              src="pics/boot tool.png"
+              alt="bootstrap"
+              width="100px"
+            />
+            <p class="summary">Bootstrap is a free open source web development framework.</p>
+          </div>
+          <div class="carousel-item container-fluid">
+            <img src="pics/js tool.png" alt="javascript" width="100px" />
+          <p class="summary">Java-script enables your website in more ways than you can imagine.</p>
+          </div>
+      </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#tools" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#tools" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 
-        <div class="head" id="works">
-                <h3>Latest Works</h3>
+
+
+<h2 class="header">Adoptable Learning Schedule</h2>
+
+    <div class="tab">
+      <table class="table table-dark table-striped container-fluid">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Month</th>
+            <th>Course</th>
+            <th>Start-Date</th>
+            <th>End-date</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>2023</td>
+            <td>February</td>
+            <td>HTML</td>
+            <td>1st February</td>
+            <td>10th March</td>
+          </tr>
+
+          <tr>
+            <td>2023</td>
+            <td>March</td>
+            <td>CSS</td>
+            <td>11th March</td>
+            <td>30th May</td>
+          </tr>
+
+          <tr>
+            <td>2023</td>
+            <td>June</td>
+            <td>Bootstrap</td>
+            <td>1st June</td>
+            <td>14th June</td>
+          </tr>
+
+          <tr>
+            <td>2023</td>
+            <td>June</td>
+            <td>Java-script</td>
+            <td>Cant say for now</td>
+            <td>currently learning Javascript</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</section>
+
+<section id="learning-p">
+    <div>
+      <h2 class="header3">Learning Platforms</h2>
+    </div>
+
+    <div class="row row-gap-md-1 row-gap-sm-1 container-fluid">
+      <div class="col-lg-3 col-md-6 col-sm-12  gap-lg-1 gap-md-1 gap-sm-1">
+      <a href="https://www.instagram.com/dcccareer_connect/" target="_blank"><img src="pics/dcc.jpg" alt="David's Christian Centre Career Connect" width="200px" /></a> 
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 gap-lg-1 gap-md-1 gap-sm-1">
+       <a href="https://www.udemy.com/" target="_blank"><img src="pics/Udemy-Symbol.png" alt="Udemy" width="200px" /></a>
+       </div>
+       <div class="col-lg-3 col-md-6 col-sm-12 gap-lg-1 gap-md-1 gap-sm-1">
+        <a href="https://www.alxafrica.com/software-engineering-2022/" target="_blank"><img src="pics/alx.png" alt="alxafrica" width="200px" /></a>
         </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 gap-lg-1 gap-md-1 gap-sm-1">
+       <a href="https://www.youtube.com/" target="_blank"><img src="pics/youtube.jpg" alt="youtube" width="200px" /></a>
+       </div>
+    
+     
+    
+    </div>
+    </section>
+      
+      
+
+      
+<section id="contact" class="truth container-fluid">
+    <div >
+      <h4 class="header">The Truth</h4>
+      <svg class="svg" height="30px" width="30px">
+        <circle cx="50" cy="50" border-radius="6px" r="100" fill="black" />
+      </svg>
+
+      <p>
+        Ones ability to self-learn is key to your success in becoming a web developer
+      </p>
+    </div>
+      <h2>
+       Now is the time to upskill, venture into tech with a growth mentality. You can do it.
+      </h2>
+
+    <footer>
+      <div class="footer-logo">
         
-        <div class="work-pics">    
-            <div class="box"><img src="pics/web.jpg" alt="hello" width="300px"></div>
-            <div><img src="pics/inter.jpg" alt="hfe" width="300px"></div>
-            <div><img src="pics/pagee.png" alt="jkn" width="200px"></div>
-            <div><img src="pics/buz.jpg" alt="hello" width="300px"></div>
-            <div><img src="pics/buz.jpg" alt="hey" width="300px"></div>
-            <div><img src="pics/happy.png" alt="hi" width="200px"></div>      
-        </div>
+      <div>
+       <a href="www.linkedin.com/in/justice-enams" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+       <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-square-facebook"></i></a>
+       <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-square-instagram"></i> </a> 
+      </div>
+      <p>© Copyright Justice Enamerherhe</p>
 
-        <div class="client">
-                <p>.....</p><br>
-                <h4 class="head">Testimonial Client</h4>
-                <svg class="svg" height="30px" width="30px">
-                    <circle cx="50" cy="50" border-radius="6px" r="100" fill="black" />
-                </svg>
-                <p id="contact">only heaven knows</p><br>
-                <p>Who would have believed what is happening today,<br> honestly I am confused on who to give 
-                    credit, I just know the earlier humans stop blaming the Devil the better
-                </p>
-        </div>
-
-        <div class="black">
-            <h2>The world can only get smaller as Technology <br>
-                close the gap distance once created</h2>
-            <p>Technology has its <br>shortcoming as well cause <br>
-             
-               </p>
-
-                <button class="inner-button">clickweb</button>
-        </div>
-
-        <footer class="footer">
-            <div class="footer-logo"><a href="#home">
-                <img  src="pics/Untitled-1.png" alt="logo" width="70px">
-            </a>
-            </div>
-            
-            <div class="so-media">
-               
-                 <a href="https://www.facebook.com" target="_blank"> 
-                    <img src="pics/fb.png" alt="facebook" width="20px">
-                 </a>
-                 <a href="https://www.instagram.com" target="_blank">
-                    <img src="pics/instagram.png" alt="instagram" width="20px">
-                </a>
-                <a href="https://www.youtube.com" target="_blank">
-                    <img src="pics/youtube-logo-png-picture-2.png" alt="youtube" width="20px">
-                </a>
-            </div>
-
-            <nav class="nav">
-                <ul>
-                    <li><a href="#home"> Home</a></li>
-                    <li><a href="#about"> About</a></li>
-                    <li><a href="#experience"> Experience</a></li>
-                    <li><a href="#works"> Works</a></li>
-                    <li><a href="#contact"> Contact</a></li>
-                </ul>
-                </nav>
-        </footer>
-
-</section> 
-</body>
+     
+    </footer>
+</section>
+  </body>
 </html>
