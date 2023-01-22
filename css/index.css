@@ -70,6 +70,13 @@ body .navbar {
   padding-top: 1rem;
 }
 
+.header22 {
+  font-size: 1.7rem;
+  font-family: "Libre Baskerville", serif;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 .header3 {
   font-size: 1.7rem;
   font-family: "Libre Baskerville", serif;
@@ -81,7 +88,7 @@ body .navbar {
 }
 
 .margin1 {
-  margin-bottom: 4rem;
+  margin-bottom: 2.7rem;
 }
 
 .two img {
@@ -147,6 +154,14 @@ body .navbar {
     color: white;
   }
   .margin1 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+  .margin {
+    margin-bottom: 3.5rem;
+  }
+  .header22 {
+    font-size: 1.7rem;
+    font-family: "Libre Baskerville", serif;
+    padding-top: 1rem;
   }
 }/*# sourceMappingURL=index.css.map */
